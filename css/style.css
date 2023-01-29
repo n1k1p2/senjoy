@@ -496,6 +496,9 @@ video {
     margin-top: 340px;
   }
   .content-radius-block-1 h1 {
-    font-size: 0.5rem;
+    font-size: 1.2rem;
+  }
+  .content-radius-block-2 h1 {
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=style.css.map */
