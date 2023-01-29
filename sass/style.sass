@@ -94,7 +94,7 @@ video
     height: 200px
     background-color: #220b3f
     border-radius: 50px
-    margin-top: 500px
+    margin-top: 55vh
     flex-direction: row
 .content-radius-block-1
     display: flex
@@ -133,23 +133,20 @@ video
     flex-direction: column
     height: 600px
 .mid-footer-content-text h1
-    font-size: 6rem
+    font-size: 5vw
     color: white
 .mid-footer-content-text h2 
     color: white
-    font-size: 2rem
+    font-size: 2vw
     text-transform: none
 .mid-footer-content img
     display: flex
     margin-top: 2%
 
 .mid-image1
+    width: 40vw
     position: absolute
-    left: 50%
-.mid-image2
-    position: absolute
-    left: 75%
-    top: 30%
+    left: 60%
 :root 
   --dark-Blue: hsl(233, 26%, 24%)
   --lime-Green: hsl(136, 65%, 51%)
@@ -301,5 +298,22 @@ video
         margin-left: 6%
         width: 90%
     .header-content-main h2 
-        margin-top: 90%
+        margin-top: 90px
     
+@media screen and(max-width: 1487px)
+    .header-content-main
+        margin-left: 6%
+        width: 90%
+    .header-content-main h2 
+        margin-top: 450px
+    .content-radius-block
+        margin-top: 90px
+    .mid-footer-content-text h1
+        font-size: 3rem
+    .mid-footer-content-text h2
+        font-size: 2rem
+@media screen and(max-width: 1200px)
+    .mid-footer-content-text h1
+        font-size: 2.7rem
+    .mid-footer-content-text h2
+        font-size: 1.5rem
