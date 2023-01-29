@@ -376,9 +376,6 @@ video {
     margin-left: 6%;
     width: 90%;
   }
-  .header-content-main h2 {
-    margin-top: 90px;
-  }
 }
 @media screen and (max-width: 1487px) {
   .header-content-main {
@@ -483,7 +480,7 @@ video {
 }
 @media screen and (max-width: 768px) {
   .header-content-main h2 {
-    margin-top: 330px;
+    margin-top: 450px;
   }
   .footer .k13 {
     margin-left: 50%;
