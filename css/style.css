@@ -370,4 +370,14 @@ video {
   align-items: center;
   font-size: 1rem;
   margin-left: 1%;
+}
+
+@media screen and (max-width: 768px) {
+  .header-content-main {
+    margin-left: 6%;
+    width: 90%;
+  }
+  .header-content-main h2 {
+    margin-top: 90%;
+  }
 }/*# sourceMappingURL=style.css.map */
