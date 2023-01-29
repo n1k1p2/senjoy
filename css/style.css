@@ -3,18 +3,28 @@ body {
   background-image: url("../imgs/Layer0.png");
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 100%;
 }
 
 .header {
   display: block;
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
+  margin-left: 5%;
 }
 
 video {
   opacity: 0.7;
   position: absolute;
-  width: 80%;
+  width: 90%;
   height: 800px;
   object-fit: cover;
   z-index: -1;
@@ -24,7 +34,7 @@ video {
 
 .header-container {
   display: flex;
-  width: 80vw;
+  width: 90vw;
   height: 120px;
   position: relative;
   flex-direction: row;
@@ -32,7 +42,7 @@ video {
 
 .header-border {
   border-bottom: 1px solid #434343;
-  width: 74%;
+  width: 84%;
   position: absolute;
   margin-top: 13vh;
   margin-left: 3vw;
@@ -147,11 +157,6 @@ video {
   border: 1px solid white;
   margin-top: 20px;
   margin-right: 2vw;
-}
-
-.footer {
-  width: 100%;
-  height: 800px;
 }
 
 .mid-footer-content {
@@ -302,4 +307,67 @@ video {
   background-size: 300%;
   background-position: -100%;
   animation: animatedText 5s infinite alternate-reverse;
+}
+
+.footer-prev {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  height: 200px;
+  background-color: #1a1a7f;
+  border-radius: 50px;
+  margin-top: 70px;
+  flex-direction: row;
+}
+
+.footer-prev-block {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 10%;
+}
+
+.footer-prev-block h1 {
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+
+.footer-next-block {
+  display: flex;
+  width: 40%;
+  font-family: "PF BeauSans Pro";
+  align-items: center;
+  margin-left: 5%;
+}
+
+.footer-next-block h1 {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Montserrat";
+  text-transform: none;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: black;
+  margin-top: 3%;
+  align-items: center;
+  height: 85px;
+}
+
+.footer h1 {
+  color: white;
+  font-family: "Oswald";
+  text-transform: none;
+  font-weight: 100;
+  align-items: center;
+  font-size: 1rem;
+  margin-left: 1%;
 }/*# sourceMappingURL=style.css.map */
