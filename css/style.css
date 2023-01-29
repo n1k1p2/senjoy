@@ -493,11 +493,6 @@ video {
 }
 @media screen and (max-width: 400px) {
   .header-content-main h2 {
-    margin-top: 330px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .header-content-main h2 {
-    margin-top: 270px;
+    margin-top: 340px;
   }
 }/*# sourceMappingURL=style.css.map */
