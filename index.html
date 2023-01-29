@@ -16,6 +16,21 @@
                 
 </head>
 <body>
+	<div id="preloader">
+        <div id="loader">
+        </div>
+        <div class="preloader-title">
+            <h1 class="title">
+                SENJOY
+            </h1>
+        </div>
+      </div>
+      <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        })
+      </script>
     <div class="header">
     <video poster="" src="./imgs/headervid.webm" autoplay loop playsinline muted></video> 
 	<div class="header-border"></div>

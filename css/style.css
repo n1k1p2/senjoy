@@ -195,4 +195,111 @@ video {
   position: absolute;
   left: 75%;
   top: 30%;
+}
+
+:root {
+  --dark-Blue: hsl(233, 26%, 24%);
+  --lime-Green: hsl(136, 65%, 51%);
+  --bright-Cyan: hsl(192, 70%, 51%);
+  --grayish-Blue: hsl(233, 8%, 62%);
+  --light-Grayish-Blue: hsl(220, 16%, 96%);
+  --very-Light-Gray: hsl(0, 0%, 98%);
+  --white: hsl(0, 0%, 100%);
+}
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #222;
+  z-index: 300;
+}
+
+#loader {
+  display: block;
+  position: relative;
+  left: 49%;
+  top: 50%;
+  width: 200px;
+  height: 200px;
+  margin: -75px 0 0 -75px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #9370DB;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+#loader:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #BA55D3;
+  -webkit-animation: spin 3s linear infinite;
+  animation: spin 3s linear infinite;
+}
+
+#loader:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #FF00FF;
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.preloader-title {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 50%;
+}
+
+.title {
+  font-family: "Helvetica";
+  font-size: 6vw;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #9370DB, #FF00FF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-size: 300%;
+  background-position: -100%;
+  animation: animatedText 5s infinite alternate-reverse;
 }/*# sourceMappingURL=style.css.map */
