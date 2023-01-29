@@ -1,0 +1,366 @@
+@import url("https://fonts.cdnfonts.com/css/fester");
+body {
+  background-image: url("../imgs/Layer0.png");
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+}
+
+.header {
+  display: block;
+  width: 80%;
+  margin-left: 10%;
+}
+
+video {
+  opacity: 0.7;
+  position: absolute;
+  width: 80%;
+  height: 800px;
+  object-fit: cover;
+  z-index: -1;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.header-container {
+  display: flex;
+  width: 80vw;
+  height: 120px;
+  position: relative;
+  flex-direction: row;
+}
+
+.header-border {
+  border-bottom: 1px solid #434343;
+  width: 74%;
+  position: absolute;
+  margin-top: 13vh;
+  margin-left: 3vw;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.header-logo img {
+  display: flex;
+  width: 100px;
+  margin-left: 1vw;
+}
+
+.header-logo-text {
+  display: flex;
+  padding-top: 1.2vh;
+  flex-direction: column;
+}
+
+.header-logo-text h1 {
+  color: white;
+  font-size: 0.8rem;
+  font-family: "Futura PT";
+  font-weight: 700;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  order: 2;
+  gap: 1vw;
+}
+
+.header-buttons a {
+  text-decoration: none !important;
+  color: white;
+  text-shadow: 1px 1px 1px grey;
+  font-family: "Oswald";
+  font-weight: 200;
+  font-size: 1.2rem;
+  margin-right: 4.5vw;
+}
+
+.header-content-main {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 3vw;
+  flex-direction: column;
+  width: 30%;
+}
+
+.header-content-main h1 {
+  color: white;
+  font-family: "Galiver Sans";
+  font-size: 2.2rem;
+}
+
+.header-content-main h2 {
+  color: white;
+  font-size: 0.9rem;
+  font-family: "Montserrat";
+  margin-top: 15px;
+  text-transform: none;
+}
+
+.content-radius-block {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  height: 200px;
+  background-color: #220b3f;
+  border-radius: 50px;
+  margin-top: 500px;
+  flex-direction: row;
+}
+
+.content-radius-block-1 {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-radius-block-1 h1 {
+  font-size: 1.8rem;
+  color: white;
+  text-align: center;
+}
+
+.content-radius-block-2 {
+  display: flex;
+  width: 40%;
+  font-family: "PF BeauSans Pro";
+  align-items: center;
+}
+
+.content-radius-block-2 h1 {
+  font-size: 0.8rem;
+  color: white;
+  font-family: "PF BeauSans Pro";
+  line-height: 1.25rem;
+}
+
+.content-radius-block-border {
+  height: 160px;
+  border: 1px solid white;
+  margin-top: 20px;
+  margin-right: 2vw;
+}
+
+.footer {
+  width: 100%;
+  height: 800px;
+}
+
+.mid-footer-content {
+  display: flex;
+  position: relative;
+  height: 400px;
+  width: 80%;
+  margin-left: 10%;
+  flex-direction: row;
+}
+
+.mid-footer-content-text {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+}
+
+.mid-footer-content-text h1 {
+  font-size: 6rem;
+  color: white;
+}
+
+.mid-footer-content-text h2 {
+  color: white;
+  font-size: 2rem;
+  text-transform: none;
+}
+
+.mid-footer-content img {
+  display: flex;
+  margin-top: 2%;
+}
+
+.mid-image1 {
+  position: absolute;
+  left: 50%;
+}
+
+.mid-image2 {
+  position: absolute;
+  left: 75%;
+  top: 30%;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+  }
+  4% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  28.33% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  3% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+}
+@keyframes transition-fade {
+  0% {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  7% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  25% {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.slider {
+  width: 100vw;
+  height: 100vh;
+  max-width: 1000px;
+  max-height: 640px;
+  margin: 0 auto;
+  display: flex;
+  color: #ede7f6;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #212121;
+}
+.slider__item {
+  flex-shrink: 0;
+  flex-basis: 100%;
+  height: 100%;
+  z-index: 1;
+  position: relative;
+  transform: translateX(0);
+  border-radius: 10px;
+  animation: 20s slide infinite linear both;
+}
+.slider__item:nth-of-type(1) {
+  transform: translateX(calc(-100% * 0));
+  animation-delay: 0s;
+}
+.slider__item:nth-of-type(1) > .slider__background {
+  background: url("https://picsum.photos/id/999/900/500") center center;
+  background-size: cover;
+}
+.slider__item:nth-of-type(1) > .slider__title, .slider__item:nth-of-type(1) > .slider__subtitle, .slider__item:nth-of-type(1) > .slider__number {
+  animation-delay: 0s;
+}
+.slider__item:nth-of-type(1) > .slider__number::after {
+  content: "1";
+}
+.slider__item:nth-of-type(2) {
+  transform: translateX(calc(-100% * 1));
+  animation-delay: 5s;
+}
+.slider__item:nth-of-type(2) > .slider__background {
+  background: url("https://picsum.photos/id/227/900/500") center center;
+  background-size: cover;
+}
+.slider__item:nth-of-type(2) > .slider__title, .slider__item:nth-of-type(2) > .slider__subtitle, .slider__item:nth-of-type(2) > .slider__number {
+  animation-delay: 5s;
+}
+.slider__item:nth-of-type(2) > .slider__number::after {
+  content: "2";
+}
+.slider__item:nth-of-type(3) {
+  transform: translateX(calc(-100% * 2));
+  animation-delay: 10s;
+}
+.slider__item:nth-of-type(3) > .slider__background {
+  background: url("https://picsum.photos/id/116/900/500") center center;
+  background-size: cover;
+}
+.slider__item:nth-of-type(3) > .slider__title, .slider__item:nth-of-type(3) > .slider__subtitle, .slider__item:nth-of-type(3) > .slider__number {
+  animation-delay: 10s;
+}
+.slider__item:nth-of-type(3) > .slider__number::after {
+  content: "3";
+}
+.slider__item:nth-of-type(4) {
+  transform: translateX(calc(-100% * 3));
+  animation-delay: 15s;
+}
+.slider__item:nth-of-type(4) > .slider__background {
+  background: url("https://picsum.photos/id/129/900/500") center center;
+  background-size: cover;
+}
+.slider__item:nth-of-type(4) > .slider__title, .slider__item:nth-of-type(4) > .slider__subtitle, .slider__item:nth-of-type(4) > .slider__number {
+  animation-delay: 15s;
+}
+.slider__item:nth-of-type(4) > .slider__number::after {
+  content: "4";
+}
+.slider__background {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+}
+.slider__title {
+  animation: 20s fade ease-in infinite;
+  font-size: 2.2rem;
+  margin: 50px auto 65px auto;
+}
+.slider__subtitle {
+  animation: 20s transition-fade ease-in infinite;
+  font-size: 1.2rem;
+}
+.slider__number {
+  position: absolute;
+  bottom: 20px;
+  right: 50%;
+  transform: translateX(50%);
+  height: 40px;
+  width: 50px;
+  animation: 20s fade ease-out infinite;
+  font-size: 1.4rem;
+}
+.slider__number::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}/*# sourceMappingURL=style.css.map */
