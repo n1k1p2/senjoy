@@ -470,4 +470,7 @@ video {
   .footer-next-block a, h1 {
     margin-left: 0;
   }
+  .header-buttons {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
