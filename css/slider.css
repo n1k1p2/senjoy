@@ -111,8 +111,3 @@
 #t-5:checked ~ .testimonials label[for="t-5"] {
 	z-index: 4;
 }
-@media screen and(max-width: 400px) {
-	.slider {
-		margin-top: -100px;
-	}
-}
