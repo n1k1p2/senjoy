@@ -545,4 +545,7 @@ video {
     margin-left: 30%;
     float: right;
   }
+  .header-border {
+    margin-top: 10px !important;
+  }
 }/*# sourceMappingURL=style.css.map */
