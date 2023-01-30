@@ -136,13 +136,13 @@ video {
   font-size: 1.8rem;
   color: white;
   text-align: center;
-  font-family: "Verdana", "PF BeauSans Pro";
+  font-family: "Verdana", "PF BeauSans Pro", "Arial";
 }
 
 .content-radius-block-2 {
   display: flex;
   width: 40%;
-  font-family: "PF BeauSans Pro";
+  font-family: "PF BeauSans Pro", "Verdana", "Arial";
   align-items: center;
 }
 
