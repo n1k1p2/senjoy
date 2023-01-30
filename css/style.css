@@ -627,6 +627,7 @@ video {
     width: 100%;
     border-radius: 10px;
     background: white;
+    z-index: 700;
   }
   .header-container .mobilemenu .line1 {
     transform-origin: 0% 0%;
