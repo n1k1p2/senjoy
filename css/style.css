@@ -1120,6 +1120,7 @@ html, body {
   }
   .mid-content-block {
     height: 600px;
+    margin-top: 10px;
   }
   .bottom-content-block-image img {
     z-index: -100;
