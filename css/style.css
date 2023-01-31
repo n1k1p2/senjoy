@@ -1111,7 +1111,10 @@ html, body {
     font-size: 1.8rem;
   }
   .mid-container-text {
-    width: 100%;
+    width: 90%;
+  }
+  .mid-container-text h2 {
+    font-size: 1.8rem;
   }
 }
 @media screen and (max-width: 408px) {
