@@ -1007,6 +1007,9 @@ html, body {
     width: 40%;
     bottom: -5px;
   }
+  .mid-container-text {
+    width: 60%;
+  }
 }
 @media screen and (max-width: 717px) {
   .top-footer-content-text h1 {
@@ -1065,6 +1068,9 @@ html, body {
   .content-programs {
     height: 860px;
   }
+  .mid-container-text {
+    width: 80%;
+  }
 }
 @media screen and (max-width: 544px) {
   .content-programs {
@@ -1103,6 +1109,9 @@ html, body {
   }
   .bottom-content-block-2 li {
     font-size: 1.8rem;
+  }
+  .mid-container-text {
+    width: 100%;
   }
 }
 @media screen and (max-width: 408px) {
