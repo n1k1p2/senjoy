@@ -673,6 +673,81 @@ html, body {
   font-family: "Futura PT";
 }
 
+.main-container-m {
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  height: 1450px;
+  margin-top: 10px;
+}
+
+.menu-selector-m {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+.menu-selector-m h1 {
+  font-family: "Futura PT";
+  color: grey;
+  text-transform: none;
+}
+
+.menu-position-inactive {
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+}
+
+.menu-position-active {
+  margin-left: 5%;
+}
+.menu-position-active h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+#main-container-m-content-text-h1 {
+  color: white;
+  text-transform: none;
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-size: 2rem;
+  text-shadow: 1px 1px 1px white;
+}
+
+.main-container-m-content-text {
+  width: 80%;
+  display: flex;
+  flex-direction: none;
+  margin-top: 50px;
+  text-align: center;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-radius: 50px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container-m-content {
+  flex-direction: column;
+  margin-left: 25%;
+  margin-top: 50px;
+}
+
+.main-container-m-content-img {
+  width: 80%;
+  border-bottom-left-radius: 50px;
+}
+
+.main-container-m-content-img img {
+  width: 100%;
+  border-radius: 50px;
+}
+
 @media screen and (max-width: 768px) {
   .header-content-main {
     margin-left: 6%;
