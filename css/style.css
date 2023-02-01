@@ -303,9 +303,9 @@ html, body {
 }
 
 .title {
-  font-family: "Helvetica";
+  font-family: "Questrial";
   font-size: 6vw;
-  text-transform: uppercase;
+  text-transform: none;
   background-image: linear-gradient(to right, #9370DB, #FF00FF);
   -webkit-background-clip: text;
   background-clip: text;
@@ -1510,5 +1510,10 @@ html, body {
   }
   .top-footer {
     height: 700px;
+  }
+}
+@media screen and (min-width: 679px) {
+  .mobile-d-main-container-m {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
