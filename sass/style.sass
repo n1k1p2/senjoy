@@ -572,11 +572,106 @@ html, body
     border: none
 #imgjs
     display: none
+.home-game-container
+    display: flex
+    width: 90%
+    margin-left: 5%
+    flex-direction: row
+    height: 2000px
+    margin-top: 50px
+.home-game-container-1
+    width: 50%
+    display: flex
+    flex-direction: column
+.home-game-container-1 img
+    width: 100%
+    border-radius: 50px
+.home-game-container-1 h1 
+    color: white
+    text-transform: none
+    font-family: 'Futura PT'
+    font-size: 6rem
+    text-align: center
+.home-game-container-2
+    width: 45%
+    display: flex
+    flex-direction: column
+    margin-left: 5%
+.home-game-container-3
+    height: 115px
+    display: flex
+    flex-direction: column
+    padding-top: 29px
+.home-game-container-3 h1 
+    color: white
+    font-size: 1.5rem
+    text-transform: none
+.home-game-container-4
+    width: 100%
+    margin-top: 8px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-content: center
+    text-align: center
+    background-color: rgba(26, 26, 127, 0.7)
+    border-radius: 50px
+    height: 150px
+.home-game-container-5 
+    display: flex
+    margin-top: 40px
+    flex-direction: column
+    border-top: 1px solid rgba(255,255,255, 0.1)
+    border-bottom: 1px solid rgba(255,255,255, 0.1)
+.home-game-container-5 h1 
+    color: white
+    text-transform: none
+    font-size: 3rem
+    cursor: auto
+.home-game-container-5 h1:after 
+    content: "\20BD"
+.home-game-container-4 h1 
+    color: white
+    font-size: 2rem 
+    text-transform: none
+.home-game-container-5 span
+    text-shadow: 3px 3px 4px #0D092C, 0 0 1em blue, 0 0 1em #0E1A31
+@media screen and ( min-width:  1543px)
+    .home-game-container-5 h1:hover 
+        font-size: 3.3rem  
+        cursor: pointer
+@media screen and ( max-width:  1401px)
+    .home-game-container-5 h1
+        font-size: 1.8rem  
+@media screen and ( max-width:  1173px)
+    .home-game-container-1 h1 
+        font-size: 5rem
+    .home-game-container-3
+        text-align: none
+        height: fit-content
+@media screen and ( max-width:  971px)
+    .home-game-container-1 h1 
+        font-size: 3.5rem
+    .home-game-container-4 h1 
+        font-size: 1.5rem
+@media screen and ( max-width:  971px)
+    .home-game-container-1 h1 
+        font-size: 3.5rem
+    .home-game-container-4 h1 
+        font-size: 1.5rem
 
-@media screen and(max-width: 768px)
-    .header-content-main
-        margin-left: 6%
+@media screen and(max-width: 891px)
+    .home-game-container
+        flex-direction: column
+    .home-game-container-1
         width: 90%
+        margin-left: 5%
+    .home-game-container-2
+        width: 90%
+@media screen and ( max-width:  419px)
+    .home-game-container-5 h1 
+        font-size: 1.5rem
+    
     
 @media screen and(max-width: 1487px)
     .header-content-main
@@ -1031,4 +1126,3 @@ html, body
         font-size: 2.5rem
     .top-footer
         height: 700px
-    
