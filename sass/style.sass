@@ -608,7 +608,7 @@ html, body
     text-transform: none
 .home-game-container-4
     width: 100%
-    margin-top: 8px
+    margin-top: 10px
     display: flex
     flex-direction: column
     justify-content: center
@@ -619,7 +619,7 @@ html, body
     height: 150px
 .home-game-container-5 
     display: flex
-    margin-top: 40px
+    margin-top: 20px
     flex-direction: column
     border-top: 1px solid rgba(255,255,255, 0.1)
     border-bottom: 1px solid rgba(255,255,255, 0.1)
@@ -628,6 +628,7 @@ html, body
     text-transform: none
     font-size: 3rem
     cursor: auto
+    font-weight: lighter
 .home-game-container-5 h1:after 
     content: "\20BD"
 .home-game-container-4 h1 
@@ -635,7 +636,17 @@ html, body
     font-size: 2rem 
     text-transform: none
 .home-game-container-5 span
-    text-shadow: 3px 3px 4px #0D092C, 0 0 1em blue, 0 0 1em #0E1A31
+    color: white
+    text-shadow: 1px 1px 1px #0D092C, 0 0 1em blue, 0 0 1em #0E1A31
+.home-header
+    color: white
+    font-size: 4rem
+    font-weight: bold
+    text-transform: none
+    width: 100%
+    display: flex
+    justify-content: center
+    text-shadow: none
 @media screen and ( min-width:  1543px)
     .home-game-container-5 h1:hover 
         font-size: 3.3rem  
@@ -1130,3 +1141,6 @@ html, body
 @media screen and ( min-width: 679px)
     .mobile-d-main-container-m
         display: none
+@media screen and (max-width: 460px)
+    .home-header
+        font-size: 2rem

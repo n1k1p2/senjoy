@@ -1,6 +1,22 @@
 window.onload = function() {
     UpdateValue();
+    ChangeImage();
 };
+function ChangeImage(){
+    let kl = document.getElementById("home-game-h1js");
+    let ki = document.getElementById("home-game-imgjs");
+    let words = ["Home Game", "Турнир", "Мероприятия"];
+    let images = ["../imgs/homegame.jpg", "../imgs/tournament1.jpg", "../imgs/merop.jpg"];
+    let currentWord = 0;
+    let intervalid = setInterval(()=>{
+        if (currentWord == words.length - 1)
+          currentWord = 0;
+        else
+          currentWord++;
+        kl.innerText = words[currentWord];
+        ki.src = images[currentWord];
+      }, 5000);
+}
 function UpdateValue(){
     var els = document.getElementsByClassName('menu-position-inactive');
     if(els.length > 1){
