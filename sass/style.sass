@@ -74,6 +74,8 @@ html, body
     font-weight: 200
     font-size: 1.2rem
     margin-right: 4.5vw
+.header-buttons a:hover 
+    color: #80099a !important
 .header-content-main
     display: flex
     margin-top: 40px
@@ -403,7 +405,7 @@ html, body
     height: 250px
     display: flex
     flex-direction: row
-    background-color: #1c1a84
+    background-color: #220b3f
     border-radius: 50px
     justify-content: center
     align-items: center
@@ -416,7 +418,6 @@ html, body
 .mid-content-block-1 h1 
     color: white
     font-size: 3.5rem
-    text-shadow: white 1px 0 3px
     font-family: 'Futura PT'
     font-weight: bold
 .mid-content-block-2
@@ -425,7 +426,7 @@ html, body
     flex-direction: column
     justify-content: center
 .mid-content-block-2 li
-    color: #6512b0
+    color: white
     font-size: 2rem
     font-family: 'Futura PT'
     font-weight: 500
@@ -452,7 +453,7 @@ html, body
     font-size: 3.4rem
     font-weight: bold
 .bottom-content-block li
-    color: #f26158
+    color: white
     font-size: 2rem
     font-family: 'Futura PT'
     font-weight: 500
@@ -482,25 +483,29 @@ html, body
     flex-direction: column
 .top-footer-content-text
     width: 50%
-    margin-left: 2%
 .top-footer-content-text h1 
     font-family: 'Futura PT'
     color: white
     font-size: 3rem
+    margin-left: 5%
 .top-footer-content-text li 
-    color: #6611ae
+    color: white
     font-family: 'Futura PT'
     font-size: 1.3rem
     font-weight: bold
+.top-footer-content-text li::marker
+    color: white
+    font-size: 2rem
 .top-footer-content-text li span
     color: #9f9f9f
+    text-transform: none
 .top-footer-content-text li span h2
     color: white
 .top-footer-border
     display: flex
     width: 80%
     height: 1px
-    margin-left: 3%
+    margin-left: 10%
     border: 1px solid white
 .top-footer-footer
     display: flex
@@ -766,7 +771,7 @@ html, body
 
     .menu-items 
         display: flex
-        width: 100vw
+        width: 101vw
         height: 1080px
         transform: translate(-300%)
         display: flex
@@ -785,10 +790,15 @@ html, body
         font-size: 1.5rem
         font-weight: 500
         z-index: 1000
+        list-style-type: none
+        margin-left: 25%
     .menu-items a 
-        text-decoration: none
+        text-decoration: none !important
         font-family: 'Oswald'
         color: white
+    .menu-items a:hover 
+        color: #80099a
+        text-decoration: none !important
 @media screen and ( max-width: 1060px )
     .mid-content-block-1 h1 
         font-size: 2.5rem
@@ -856,6 +866,8 @@ html, body
 @media screen and(max-width: 624px)
     .mid-content-block
         height: 500px
+    .mid-content-block-2 li span
+        font-size: 1.3rem
     .image-layer
         left: -15%
     .mid-container h1 
@@ -894,7 +906,14 @@ html, body
         bottom: 100px
 @media screen and(max-width: 462px)
     .top-footer-content-text
+        width: 95%
+    .top-footer-content-text h1 
+        text-align: center
+    
+    .top-footer-border
         width: 80%
+    .top-footer
+        justify-content: center
     .image-layer
         left: -45%
     .bottom-content-block-1 h1 
@@ -909,8 +928,9 @@ html, body
     .top-footer
         height: 710px
     .mid-content-block
-        height: 600px
         margin-top: 10px
+    .mid-content-block-2 li span
+        font-size: 1.4rem
     .bottom-content-block-image img
         z-index: -100
         opacity: 0.9
@@ -919,3 +939,96 @@ html, body
         height: 300px
     .video-about-container video
         height: 300px
+    .bottom-content-block-2
+        width: 100%
+    .bottom-content-block-2 li span
+        font-size: 1.7rem
+@media screen and ( max-width: 1659px)
+    #main-container-m-content-text-h1
+        font-size: 1.7rem
+    .main-container-m-content-text
+        height: 500px
+@media screen and ( max-width: 1111px)
+    #main-container-m-content-text-h1
+        font-size: 1.6rem
+    .main-container-m-content-text
+        width: 90%
+    .main-container-m-content
+        margin-left: 10%
+    .main-container-m-content-img
+        width: 90%
+@media screen and ( max-width: 1111px)
+    #main-container-m-content-text-h1
+        font-size: 1.5rem
+@media screen and ( max-width: 800px)
+    .main-container-m-content-img img
+        height: 430px
+    #main-container-m-content-text-h1
+        font-size: 1.4rem
+@media screen and ( max-width: 713px)
+    .main-container-m-content-text
+        margin-top: 20px
+        height: 500px
+        width: 100%
+    #main-container-m-content-text-h1
+        font-size: 1.3rem
+    .main-container-m-content-img
+        width: 100%
+    .main-container-m-content-img img
+        height: 350px
+@media screen and ( max-width: 679px)
+    .main-container-m
+        display: none
+    .mobile-content-block
+        display: none
+    .mobile-d-main-container-m
+        display: flex
+        width: 90%
+        margin-left: 5%
+        height: fit-content
+        margin-top: 55px
+        flex-direction: column
+    .mobile-menu-position-inactive h1 
+        color: white
+        display: flex
+        font-size: 1.8rem
+        text-transform: none
+        font-family: 'Futura PT'
+        line-height: 1.2rem
+    .mobile-menu-position-active h1
+        font-size: 2rem
+        color: white
+        margin-left: 3%
+        line-height: 1.6rem
+    .mobileimgjs
+        height: 400px
+        margin-left: 10%
+        width: 80%
+        border-radius: 50px
+    .mobile-content-text
+        margin-top: 30px
+        width: 80%
+        border-top: 1px solid white
+        border-left: 1px solid white
+        border-right: 1px solid white
+        border-radius: 50px
+        height: 400px
+        display: flex
+        justify-content: center
+        align-items: center
+        text-align: center
+        margin-left: 10%
+    .mobile-h1
+        color: white
+        text-transform: none
+        font-size: 1.1rem
+        font-weight: lighter
+@media screen and ( max-width: 396px  )
+    .mid-content-block-2 li span
+        font-size: 1.4rem
+@media screen and ( max-width: 520px)
+    .top-footer-content-text h1 
+        font-size: 2.5rem
+    .top-footer
+        height: 700px
+    
