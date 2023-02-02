@@ -872,7 +872,7 @@ html, body {
   margin-left: 5%;
   flex-direction: column;
   text-align: center;
-  height: 1900px;
+  height: fit-content;
 }
 
 .contacts-container h1 {
@@ -902,9 +902,14 @@ html, body {
   margin-top: 60px;
 }
 
+.contacts-map {
+  width: 80%;
+  margin-left: 10%;
+}
+
 @media screen and (max-width: 466px) {
   .contacts-container {
-    height: 2100px;
+    height: fit-content;
   }
 }
 @media screen and (min-width: 1543px) {
