@@ -117,10 +117,15 @@ html, body
     font-family: 'PF BeauSans Pro', 'Verdana', 'Arial'
     align-items: center
 .content-radius-block-2 h1 
-    font-size: 0.8rem
+    font-size: 1rem
     color: white
     font-family: 'PF BeauSans Pro'
     line-height: 1.25rem
+@media screen and ( max-width: 1076px )
+    .content-radius-block-2 h1 
+        font-size: 0.8rem
+
+    
 .content-radius-block-border
     height: 160px
     border: 1px solid white
@@ -239,6 +244,8 @@ html, body
     text-align: center
     position: relative
     top: 50%
+.preloader-title span
+    color: #7e059a
 .title
     font-family: 'Questrial'
     font-size: 6vw
@@ -246,7 +253,7 @@ html, body
     background-image: linear-gradient(to right, #9370DB, #FF00FF)
     -webkit-background-clip: text
     background-clip: text
-    color: transparent
+    color: white
     background-size: 300%
     background-position: -100% 
     animation: animatedText 5s infinite alternate-reverse
@@ -577,7 +584,7 @@ html, body
     width: 90%
     margin-left: 5%
     flex-direction: row
-    height: 2000px
+    height: fit-content
     margin-top: 50px
 .home-game-container-1
     width: 50%
