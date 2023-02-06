@@ -84,8 +84,9 @@ html, body
     width: 30%
 .header-content-main h1 
     color: white
-    font-family: 'Galiver Sans', 'PF BeauSans Pro'
+    font-family: 'Gilroy'
     font-size: 2.2rem
+    line-height: 1.9rem
 .header-content-main h2 
     color: white
     font-size: 0.9rem
@@ -307,14 +308,19 @@ html, body
     font-size: 1rem
     margin-left: 1%
 .footer-1
-    width: 90%
+    width: 50%
 .footer-2
-    width: 40%
+    width: 50%
     height: 85px
     display: flex
     align-items: center
     margin-left: auto
     order: 2
+    justify-content: flex-end
+.footer-2 svg 
+    margin-left: 1%
+    margin-bottom: 12px
+    border-radius: 50px
 .footer-1, .footer-2 h1
     font-family: 'Oswald', 'Verdana', 'PF BeauSans Pro'
 .mobilemenu
@@ -836,10 +842,9 @@ html, body
         font-size: 0.9rem
 @media screen and ( max-width: 483px  )
     .footer-1
-        width: 50%
-    .footer-2
         width: 30%
-        float: right
+    .footer-2
+        width: 60%
     .header-container 
         align-items: center
 @media screen and ( max-width: 1050px )

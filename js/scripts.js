@@ -22,7 +22,7 @@ function UpdateValue(){
     if(els.length > 1){
         document.getElementById('blockjs').style.display = 'flex';
         document.getElementById("main-container-m-content-text-h1").innerText="Любите супергероев? Мечтали стать суперменом или человеком пауком? У нас вы сможете  примерить на себе роль супергероя.  Мир в опасности и только вы сможете его спасти! Наставники помогут героям  справиться с трудностями,  ведь им предстоит летать над городами и спасать мирных жителей от нападений нашествия суперзлодеев.";
-        document.getElementById("imgjs").src="../imgs/super.jpg";
+        document.getElementById("imgjs").src="../imgs/academia.jpg";
         document.getElementById("imgjs").style.display="block";
         document.getElementById("01").classList.add('menu-position-active');
     }
@@ -36,7 +36,7 @@ function factive(element) {
     element.classList.add('menu-position-active');
     if(element.id == "01") {
         document.getElementById("main-container-m-content-text-h1").innerText="Любите супергероев? Мечтали стать суперменом или человеком пауком? У нас вы сможете  примерить на себе роль супергероя.  Мир в опасности и только вы сможете его спасти! Наставники помогут героям  справиться с трудностями,  ведь им предстоит летать над городами и спасать мирных жителей от нападений нашествия суперзлодеев.";
-        document.getElementById("imgjs").src="../imgs/super.jpg";
+        document.getElementById("imgjs").src="../imgs/academia.jpg";
         document.getElementById("imgjs").style.display="block";
     }
     if(element.id == "02") {
@@ -66,12 +66,12 @@ function factive(element) {
     }
     if(element.id == "07") {
         document.getElementById("main-container-m-content-text-h1").innerText="Вас ждут увлекательное соревнование по мотивам популярнейшего шоу “Форт Боярд”. Участникам предстоит побороться за право обладать сокровищем форта. Программа нацелена на командообразование, сочетающая как реальные активные и логические задачи, так и виртуальные.  В этой игре нет возможности дать слабину, ведь каждый участник понимает, что является частью команды, команды, которая в каждом состязании должна выложиться по максимуму и завоевать заветный ключ!   -  все это поможет им заполучить сокровища форта! ";
-        document.getElementById("imgjs").src="../imgs/fort.jpg";
+        document.getElementById("imgjs").src="../imgs/fortboyard.jpg";
         document.getElementById("imgjs").style.display="block";
     }
     if(element.id == "08") {
         document.getElementById("main-container-m-content-text-h1").innerText="Скоро!!!";
-        document.getElementById("imgjs").src="../imgs/strike.jpg";
+        document.getElementById("imgjs").src="../imgs/perestrelka.jpg";
         document.getElementById("imgjs").style.display="block";
     }
     if(element.id == "09") {
@@ -92,7 +92,7 @@ function mfactive(element) {
     }
     if(element.id == "01") {
         document.getElementById("mobile-h1-1").innerText="Любите супергероев? Мечтали стать суперменом или человеком пауком? У нас вы сможете  примерить на себе роль супергероя.  Мир в опасности и только вы сможете его спасти! Наставники помогут героям  справиться с трудностями,  ведь им предстоит летать над городами и спасать мирных жителей от нападений нашествия суперзлодеев.";
-        document.getElementById("mobileimgjs-1").src="../imgs/super.jpg";
+        document.getElementById("mobileimgjs-1").src="../imgs/academia.jpg";
         document.getElementById("mobileimgjs-1").style.display="block";
         document.getElementById("mobile1").style.display="block";
     }
@@ -128,13 +128,13 @@ function mfactive(element) {
     }
     if(element.id == "07") {
         document.getElementById("mobile-h1-7").innerText="Вас ждут увлекательное соревнование по мотивам популярнейшего шоу “Форт Боярд”. Участникам предстоит побороться за право обладать сокровищем форта. Программа нацелена на командообразование, сочетающая как реальные активные и логические задачи, так и виртуальные.  В этой игре нет возможности дать слабину, ведь каждый участник понимает, что является частью команды, команды, которая в каждом состязании должна выложиться по максимуму и завоевать заветный ключ!   -  все это поможет им заполучить сокровища форта! ";
-        document.getElementById("mobileimgjs-7").src="../imgs/fort.jpg";
+        document.getElementById("mobileimgjs-7").src="../imgs/fortboyard.jpg";
         document.getElementById("mobileimgjs-7").style.display="block";
         document.getElementById("mobile7").style.display="block";
     }
     if(element.id == "08") {
         document.getElementById("mobile-h1-8").innerText="Скоро!!!";
-        document.getElementById("mobileimgjs-8").src="../imgs/strike.jpg";
+        document.getElementById("mobileimgjs-8").src="../imgs/perestrelka.jpg";
         document.getElementById("mobileimgjs-8").style.display="block";
         document.getElementById("mobile8").style.display="block";
     }
