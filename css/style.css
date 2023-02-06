@@ -437,6 +437,11 @@ html, body {
   z-index: -1;
 }
 
+@media screen and (max-width: 540px) {
+  .footer-2 svg {
+    display: flex;
+  }
+}
 .video-about-container {
   width: 100%;
   margin-top: 2px;
