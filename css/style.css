@@ -406,7 +406,7 @@ html, body {
   border-radius: 50px;
 }
 
-.footer-1, .footer-2 h1 {
+.footer-1 h1, .footer-2 h1 {
   font-family: "Oswald", "Verdana", "PF BeauSans Pro";
 }
 
