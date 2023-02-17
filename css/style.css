@@ -114,7 +114,7 @@ html, body {
   color: white;
   font-family: "Oswald";
   font-size: 2.2rem;
-  line-height: 1.9rem;
+  line-height: 2.4rem;
 }
 
 .header-content-main h2 {
@@ -160,7 +160,7 @@ html, body {
 .content-radius-block-2 h1 {
   font-size: 1rem;
   color: white;
-  font-family: "PF BeauSans Pro";
+  font-family: "Montserrat";
   line-height: 1.25rem;
 }
 
@@ -394,10 +394,24 @@ html, body {
 
 .footer-2 {
   width: 50%;
-  height: 85px;
+  height: 15px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  margin-right: 3%;
+}
+
+.footer-3 {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 0.5%;
+}
+
+.footer-3 svg {
+  border-radius: 50px;
 }
 
 .footer-2 svg {
@@ -1027,25 +1041,28 @@ html, body {
     align-items: center;
   }
   .content-radius-block-border {
-    display: none;
+    margin-top: 0px;
   }
   .content-radius-block-1 {
     width: 100%;
+    text-align: center;
   }
   .content-radius-block-1 h1 {
-    font-size: 1.6rem;
-    font-family: "Oswald";
-    font-weight: 300;
+    font-size: 1.8rem;
+    padding-top: 10px;
+    font-family: "Montserrat";
+    font-weight: 600;
   }
   .content-radius-block-2 {
     width: 100%;
   }
   .content-radius-block-2 h1 {
     font-size: 1rem;
-    font-weight: 200;
-    font-family: "Oswald";
+    font-weight: 600;
+    font-family: "Montserrat";
     height: 100%;
-    padding: 4%;
+    padding-top: 10px;
+    text-transform: none;
   }
   .header-content-main h2 {
     margin-top: 450px;
@@ -1102,6 +1119,11 @@ html, body {
 @media screen and (max-width: 506px) {
   .header-content-main h2 {
     margin-top: 360px;
+  }
+}
+@media screen and (max-width: 507px) {
+  .content-radius-block {
+    margin-top: 140px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -1604,5 +1626,29 @@ html, body {
 @media screen and (max-width: 418px) {
   .home-game-container-1 h1 {
     font-size: 3rem;
+  }
+}
+@media screen and (max-width: 458px) {
+  .footer {
+    height: 150px;
+    flex-direction: column;
+  }
+  .footer-1 {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+  }
+  .footer-2 {
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .footer-3 {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .footer-3 svg {
+    margin-left: 10px;
+    border-radius: 50px;
   }
 }/*# sourceMappingURL=style.css.map */
