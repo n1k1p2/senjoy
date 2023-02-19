@@ -260,13 +260,17 @@ html, body
     animation: animatedText 5s infinite alternate-reverse
 .footer-prev
     display: flex
-    width: 80%
-    margin-left: 10%
-    height: 200px
+    width: 60%
+    margin-left: 20%
+    height: 300px
     background-color: #220b3f
     border-radius: 50px
     margin-top: 70px
-    flex-direction: row
+    justify-content: center
+    align-items: center
+    flex-direction: column
+.footer-prev h1 
+    color: white
 .footer-prev-block
     display: flex
     width: 40%
@@ -291,6 +295,22 @@ html, body
     text-align: center
     font-family: 'Montserrat', 'PF BeauSans Pro'
     text-transform: none
+@media screen and ( max-width: 1026px )
+    .footer-prev
+        width: 80%
+        margin-left: 10%
+        height: 350px    
+@media screen and ( max-width: 779px )
+    .footer-prev h1 
+        font-size: 1.8rem
+@media screen and ( max-width: 549px )
+    .footer-prev h1 
+        font-size: 1.5rem
+@media screen and ( max-width: 463px )
+    .footer-prev h1 
+        font-size: 1.2rem
+
+       
 .footer
     display: flex
     flex-direction: row
@@ -299,6 +319,8 @@ html, body
     margin-top: 3%
     align-items: center
     height: 85px
+.form_erltee__form_label
+    color: white
 .footer h1 
     color: white
     font-family: 'Oswald', 'PF BeauSans Pro'
@@ -804,7 +826,6 @@ html, body
     .footer-next-block
         font-size: 1.7rem
     .footer-prev
-
         flex-direction: column
     .footer-prev-block
         margin-top: 5px
@@ -1240,4 +1261,3 @@ html, body
 @media screen and ( max-width: 376px  )
     .content-radius-block
         margin-top: 60px
-    
