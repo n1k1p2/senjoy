@@ -1,6 +1,7 @@
 window.onload = function() {
     UpdateValue();
     ChangeImage();
+    
 };
 function ChangeImage(){
     let kl = document.getElementById("home-game-h1js");
